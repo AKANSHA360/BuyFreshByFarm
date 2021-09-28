@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GroFam-Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Register.css">
+    </head>
+    <body>
+        <div class="center">
+            <div class="card">
+                <div class="heading">
+                    <h3>
+                        Create a new account
+                    </h3>
+                    </div>
+            <form method="post" action="RegisterServlet">
+                <div class="input">
+                First Name : <input type="text" name="F_Name" placeholder="First Name"/>
+                </div>
+                <br>
+                <div class="input">
+                Last Name : <input type="text" name="L_Name" placeholder="Last Name"/>
+                </div>
+                <br>
+                <div class="input">
+                UserName : <input type="email" name="UserName" placeholder="UserName"/>  
+                </div><br>
+                <div class="input">
+                Password : <input type="password" name="Password" placeholder="Password"/>
+                </div><br>
+                <div class="input">
+                Contact : <input type="text" name="Contact" placeholder="Contact"/>
+                </div><br>
+                <div class="button">
+                    <input type="submit" value="register">   
+                </div><br>
+                <div class="links">
+                Already have an account?<a href="LoginPage.html">Sign In</a>
+                </div>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

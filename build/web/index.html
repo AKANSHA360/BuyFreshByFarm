@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GroFam-Login,SignUp & More </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Login.css">
+    </head>
+    <body>
+        <div class="container">
+	<div class="card">
+	<div class="header">
+	<h3>Sign In</h3>
+	</div>
+	<div class="body">
+            <form method="post" action="LoginServlet">
+	<div class="input-group-form-group">
+	<i class="fa fa-user icon"></i>
+	<input type="email" class="form-control" placeholder="username" name="uname">
+	</div>
+            <br>
+	<div class="input-group-form-group">
+	<i class="fa fa-key icon"></i>
+            <input type="password" class="form-control" placeholder="password" name="pass">
+	</div>
+            <br>
+	<div class="row align-items-center remember">
+	<input type="checkbox">Remember Me
+	</div>
+            <br>
+	<div class="form-group">
+	<input type="submit" value="Login" class="btn float-right login_btn">
+	</div>
+            <br>
+	</form>
+	</div>
+	<div class="card-footer">
+	<div class="links">
+	Don't have an account?<a href="Register.html">Sign Up</a>
+	</div>
+	<div class="links1">
+	<a href="ForgotPassword.html">Forgot your password?</a>
+	</div>
+	</div>
+	</div>
+	</div>
+        
+    </body>
+</html>

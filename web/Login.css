@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2020, 3:43:44 PM
+    Author     : Shree
+*/
+ /* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('./images/groceries.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+}
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.7) !important;
+}
+
+.header h3{
+color: white;
+margin-left: 160px;
+}
+h3{
+    color: white;
+}
+
+
+
+.input-group-form-group input{
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+margin-left: 120px;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+margin-left: 150px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+margin-left: 100px;
+}
+.links1{
+color: white;
+margin-left: 120px;   
+}
+
+.links a:hover{
+color: white;
+}
+.links1 a:hover{
+    color: white;
+}
+
+.links a{
+color: blue;    
+margin-left: 4px;
+text-decoration: none;
+}
+.links1 a{
+color: blue;
+text-decoration: none;
+
+}
+
+
+
+
